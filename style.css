@@ -12,8 +12,8 @@ body {
 }
 
 .container {
-  max-width: 0 928px;
-  margin: 0 center;
+  max-width: 928px;
+  margin: 0 auto;
   padding: 0 16px;
 }
 
@@ -56,17 +56,19 @@ body {
 }
 
 .heading {
-  margin: 0 0 16px;
+  margin: 0 0 auto;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
+    text-align: center;
 }
 
 .hero-image p {
   margin: 0;
   font-size: 32px;
   line-height: 48px;
+    text-align: center;
 }
 
 .intro {
@@ -171,13 +173,13 @@ body {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  background-color: #a72929;
   color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #c43535;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
